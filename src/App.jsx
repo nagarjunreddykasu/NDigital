@@ -23,7 +23,7 @@ import AccountPage from './pages/AccountPage';
 
 function AppContent() {
   return (
-    <Router>
+    <Router basename="/NDigital">
       <div className="app">
         <Header />
         <main className="main-content">
